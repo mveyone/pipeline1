@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "roboto ";
+}
+body {
+  margin: 0 50px;
+  background-color: rgb(255, 189, 102);
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+nav {
+  background-color: rgb(0, 0, 0);
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container1 ul li {
+  display: inline-block;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 30px;
+}
+.container1 ul li a {
+  color: white;
+}
+.container {
+  background-image: url("../img/horse.png");
+  color: blue;
+  width: auto;
+  height: 300px;
+  background-size: cover;
+}
+
+/*columns */
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  color: rgb(12, 41, 70);
+  border: 1px solid #000;
+  width: 70%;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightsalmon;
+}
+.col3 {
+  width: 300px;
+}
+.columns2 {
+  display: flex;
+  justify-content: space-between;
+}
+.columns2 .col2 {
+  width: 900px;
+}
+.columns2 .col1 {
+  text-align: center;
+}
+.columns2 .col1 UL {
+  list-style: none;
+}
+.columns2 .col1 ul li input {
+  border: 2px solid #000;
+  width: 200px;
+  height: 20px;
+}
+.columns2 .col2 h1 {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(238, 144, 144);
+  }
+  .col {
+    background-color: aqua;
+    width: auto;
+  }
+  .container {
+    width: auto;
+    height: 200px;
+  }
+  .container h1 {
+    color: yellow;
+  }
+  .columns {
+    display: block;
+    width: auto;
+  }
+
+  .columns2 {
+    display: block;
+  }
+  .columns2 .col {
+    width: auto;
+  }
+}
